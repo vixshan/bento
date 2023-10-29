@@ -123,6 +123,8 @@ If this project helped you, please consider giving it a star ⭐, or sponsor me
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
+## Powered by;
+
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=c5587212fe39&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 <a href="https://www.vultr.com/?ref=9556008-8H"><img src="https://www.vultr.com/media/logo_ondark.svg" width="200" height="80"></a>
 
