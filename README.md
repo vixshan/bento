@@ -92,16 +92,30 @@ BENTO_USERNAME=<your bento username>
 5. Deploy the app to Heroku
 6. Add the custom domain to the Heroku app
 
-> Note: You can also deploy the app to Heroku using the Heroku CLI Due to some
+> Note: You can also deploy the app to Heroku using the Heroku CLI. Due to some
 > issues, i think caching, deploying the app on Heroku doesnt show the images,
 > They load for a brief second and disappear. So, I recommend deploying the app
 > to a VPS or PC.
 
 ## Usage
 
-I haven't tried deploying the app to other platforms like AWS, CloudFlare pages,
-etc. If you have, please let me know how it went. My instance is deployed on
-Azure, and cached by CloudFlare.
+I haven't tried deploying the app to other platforms like AWS, CloudFlare
+Workers, etc. If you have, please let me know how it went. My instance is
+deployed on Azure, and cached by CloudFlare.
 
-- Cached - [https://vikshan.me](https://vikshan.me)
-- Uncached - [https://vikshan.me](https://bento.eastus.cloudapp.azure.com/)
+- Cached - [vikshan.me](https://vikshan.me)
+- Uncached -
+  [bento.eastus.cloudapp.azure.com](https://bento.eastus.cloudapp.azure.com/)
+
+## Contributing
+
+I am not a professional developer, I am still learning. If you find any bugs or
+issues with the app please open an issue or a pull request. I will be happy to
+review it. Also if you have any suggestions or ideas, please let me know.
+
+If this project helped you, please consider giving it a star ⭐, or sponsor me
+[here](https://github.com/sponsors/vixshan) and check out my other projects
+[here](https://github.com/vixshan?tab=repositories) It will help me a lot.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
