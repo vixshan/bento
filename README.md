@@ -9,8 +9,8 @@ Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try yo
   affiliate links, I will get a small commission if you buy a VPS using these
   links.
   - Ionos - Click [here for a discount](https://acn.ionos.com/SHA5)
-  - Vultr - Click [here for a discound](https://www.vultr.com/?ref=9556007)
-  - DigitalOcean - Click [here for a discount](https://digitalocean.pxf.io/vikshan)
+  - Vultr - Click here for [free $10 credit](https://www.vultr.com/?ref=9556007)
+  - DigitalOcean - Click here for [free $200 credit](https://digitalocean.pxf.io/vikshan)
   - Hostinger - Click [here for a discount](https://hostinger.sjv.io/vikshan)
   - BigRock VPS - Click [here for a discount](https://bigrock-in.sjv.io/vikshan)
   - HostGator - Click [here for a discount](https://https://partners.hostgator.com/vikshan)
@@ -122,3 +122,7 @@ If this project helped you, please consider giving it a star ⭐, or sponsor me
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=c5587212fe39&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+<a href="https://www.vultr.com/?ref=9556008-8H"><img src="https://www.vultr.com/media/logo_ondark.svg" width="200" height="80"></a>
+
