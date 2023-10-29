@@ -83,7 +83,7 @@ In this example I will assume you;
 
 ---
 
-1. Clone my repository to your GitHub account and connect it to Heroku.
+1. Fork this repository to your GitHub account [here](https://github.com/vixshan/bento/fork) and connect it to Heroku.
 2. Create a new Heroku app and a pipeline
 3. Add the GitHub repository to the pipeline
 4. Add the following config vars to the Heroku app
