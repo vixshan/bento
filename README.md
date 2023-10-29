@@ -2,14 +2,14 @@
 
 ## Prerequisites
 
-Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try your app!!!!! Click [here](https://www.vultr.com/?ref=9556008-8H), it is available for a limited time only!
+Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try your app, available for a limited time only!
 ---
 - A computer running Windows, Linux or macOS or a VPS running Ubuntu 20.04 or
   later, here are some of my recommendations, please note that these are
   affiliate links, I will get a small commission if you buy a VPS using these
   links.
   - Ionos - Click [here for a discount](https://acn.ionos.com/SHA5)
-  - Vultr - Click here for [free $10 credit](https://www.vultr.com/?ref=9556007)
+  - Vultr - Click here for [free $10 credit](https://www.vultr.com/?ref=9556007), or here for [free $100 Credit](https://www.vultr.com/?ref=9556008-8H)(limited time offer)
   - DigitalOcean - Click here for [free $200 credit](https://digitalocean.pxf.io/vikshan)
   - Hostinger - Click [here for a discount](https://hostinger.sjv.io/vikshan)
   - BigRock VPS - Click [here for a discount](https://bigrock-in.sjv.io/vikshan)
@@ -28,9 +28,9 @@ Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try yo
   domain.
 - PM2 (optional)
 - Apache2 (Required for VPS ) - I won't go deep on this, you can check a
-  documentation I wrote for my Discord bot's dashboard [here](docs.vikshan.me),
+  documentation I wrote for my Discord bot's dashboard [here](https://docs.vikshan.me/installation/dashboard/custom-domain),
   it is basically the same thing.
-- Certbot (Required for SSL on VPS) see [here](docs.vikshan.me)
+- Certbot (Required for SSL on VPS) see [here](https://docs.vikshan.me/installation/dashboard/custom-domain/ssl-certificate)
 
 ## Installation
 
