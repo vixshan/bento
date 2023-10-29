@@ -8,11 +8,12 @@ Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try yo
   later, here are some of my recommendations, please note that these are
   affiliate links, I will get a small commission if you buy a VPS using these
   links.
-  - Ionos - [discounted](https://acn.ionos.com/SHA5)
-  - DigitalOcean - [discounted](https://digitalocean.pxf.io/vikshan)
-  - Hostinger - [discounted](https://hostinger.sjv.io/vikshan)
-  - BigRock VPS - [discounted](https://bigrock-in.sjv.io/vikshan)
-  - HostGator - [discounted](https://https://partners.hostgator.com/vikshan)
+  - Ionos - Click [here for a discount](https://acn.ionos.com/SHA5)
+  - Vultr - Click [here for a discound](https://www.vultr.com/?ref=9556007)
+  - DigitalOcean - Click [here for a discount](https://digitalocean.pxf.io/vikshan)
+  - Hostinger - Click [here for a discount](https://hostinger.sjv.io/vikshan)
+  - BigRock VPS - Click [here for a discount](https://bigrock-in.sjv.io/vikshan)
+  - HostGator - Click [here for a discount](https://https://partners.hostgator.com/vikshan)
 
 > If you don't know how to do this, I am an Ionos Partner and you can hire me at
 > [Vikshan](https://partnernetwork.ionos.com/partner/vixshan)
