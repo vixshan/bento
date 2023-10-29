@@ -1,0 +1,26 @@
+{
+  "name": "bento-custom-domain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./app.js",
+    "start": "pm2 start app.js --name bento && pm2 save && pm2 logs",
+    "dev": "nodemon ./app.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fastify": "^4.20.0",
+    "newrelic": "^11.4.0",
+    "node-fetch": "^3.3.2",
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
