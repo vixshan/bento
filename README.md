@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try your app, available for a limited time only!
+##### Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try your app, available for a limited time only!
 ---
 - A computer running Windows, Linux or macOS or a VPS running Ubuntu 20.04 or
   later, here are some of my recommendations, please note that these are
