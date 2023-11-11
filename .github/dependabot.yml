@@ -5,14 +5,14 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     open-pull-requests-limit: 5
     reviewers:
-      - "vixshan"
+      - 'vixshan'
     labels:
-      - "dependencies"
+      - 'dependencies'
 #    ignore:
 #      - dependency-name: "node-fetch"

@@ -3,17 +3,24 @@
 ## Prerequisites
 
 ##### Get free [$100 Credit](https://www.vultr.com/?ref=9556008-8H) on Vultr to try your app, available for a limited time only!
+
 ---
+
 - A computer running Windows, Linux or macOS or a VPS running Ubuntu 20.04 or
   later, here are some of my recommendations, please note that these are
   affiliate links, I will get a small commission if you buy a VPS using these
   links.
   - Ionos - Click [here for a discount](https://acn.ionos.com/SHA5)
-  - Vultr - Click here for [free $10 credit](https://www.vultr.com/?ref=9556007), or here for [free $100 Credit](https://www.vultr.com/?ref=9556008-8H)(limited time offer)
-  - DigitalOcean - Click here for [free $200 credit](https://digitalocean.pxf.io/vikshan)
+  - Vultr - Click here for
+    [free $10 credit](https://www.vultr.com/?ref=9556007), or here for
+    [free $100 Credit](https://www.vultr.com/?ref=9556008-8H)(limited time
+    offer)
+  - DigitalOcean - Click here for
+    [free $200 credit](https://digitalocean.pxf.io/vikshan)
   - Hostinger - Click [here for a discount](https://hostinger.sjv.io/vikshan)
   - BigRock VPS - Click [here for a discount](https://bigrock-in.sjv.io/vikshan)
-  - HostGator - Click [here for a discount](https://https://partners.hostgator.com/vikshan)
+  - HostGator - Click
+    [here for a discount](https://https://partners.hostgator.com/vikshan)
 
 > If you don't know how to do this, I am an Ionos Partner and you can hire me at
 > [Vikshan](https://partnernetwork.ionos.com/partner/vixshan)
@@ -28,9 +35,11 @@
   domain.
 - PM2 (optional)
 - Apache2 (Required for VPS ) - I won't go deep on this, you can check a
-  documentation I wrote for my Discord bot's dashboard [here](https://docs.vikshan.me/installation/dashboard/custom-domain),
-  it is basically the same thing.
-- Certbot (Required for SSL on VPS) see [here](https://docs.vikshan.me/installation/dashboard/custom-domain/ssl-certificate)
+  documentation I wrote for my Discord bot's dashboard
+  [here](https://docs.vikshan.me/installation/dashboard/custom-domain), it is
+  basically the same thing.
+- Certbot (Required for SSL on VPS) see
+  [here](https://docs.vikshan.me/installation/dashboard/custom-domain/ssl-certificate)
 
 ## Installation
 
@@ -83,7 +92,8 @@ In this example I will assume you;
 
 ---
 
-1. Fork this repository to your GitHub account [here](https://github.com/vixshan/bento/fork) and connect it to Heroku.
+1. Fork this repository to your GitHub account
+   [here](https://github.com/vixshan/bento/fork) and connect it to Heroku.
 2. Create a new Heroku app and a pipeline
 3. Add the GitHub repository to the pipeline
 4. Add the following config vars to the Heroku app
@@ -121,10 +131,11 @@ If this project helped you, please consider giving it a star ⭐, or sponsor me
 [here](https://github.com/vixshan?tab=repositories) It will help me a lot.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details
 
 ## Powered by;
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=c5587212fe39&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 <a href="https://www.vultr.com/?ref=9556008-8H"><img src="https://www.vultr.com/media/logo_ondark.svg" width="200" height="80"></a>
-
