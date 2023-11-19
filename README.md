@@ -141,6 +141,7 @@ npm test
 4. Now select the forked repository, select branch.
 5. Now go to <b>Variables</b> and add variable listed below.
    - BENTO_USERNAME - Your bento username
+6. Click on <b>Advanced Options </b> and add `public/okteto.yml` as your Okteto Manifest Path.
    <details>
      <summary>Launching your Okteto app</summary>
      <img src="public/images/okteto.jpeg">
