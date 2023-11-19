@@ -1,0 +1,13 @@
+[env]
+RAILWAY_STATIC_DIR = "public"
+
+[env]
+BENTO_USERNAME = "vikshan"
+
+[[deploy.steps]]
+name = "Install dependencies"
+command = "npm install"
+
+[[deploy.steps]]
+name = "Start"
+command = "node ."

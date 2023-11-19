@@ -83,26 +83,36 @@ npm test
 
 ### Deployment to Heroku
 
-In this example I will assume you;
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+2. if you do not have an Heroku account,create one
+   [here](https://signup.heroku.com/).
+3. Click
+   [here to deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento)
+   the app to Heroku
 
-- Have already created a Heroku account
-- Have already created a Bento account
-- Have already created a custom domain
-- Using Heroku web interface
+4. Add the custom domain to the Heroku app
 
----
+> Note: You can also deploy the app to Heroku using the Heroku CLI.
+
+> Due to some issues, I think caching, deploying the app on Heroku doesnt show
+> the images, They load for a brief second and disappear. So, I recommend
+> deploying the app to a VPS or PC.
+
+## DEPLOY TO RAILWAY
 
 1. Give this repo a star and fork it to your GitHub account
    [here](https://github.com/vixshan/bento/fork).
-2. Click [here to deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento) the app to Heroku
 
-3. Add the custom domain to the Heroku app
+2. If you do not have an Railway account,create one
+   [here](https://railway.app/).
 
-> Note: You can also deploy the app to Heroku using the Heroku CLI. 
-
-> Due to some issues, I think caching, deploying the app on Heroku doesnt show the images,
-> They load for a brief second and disappear. So, I recommend deploying the app
-> to a VPS or PC.
+3. Now head towards https://railway.app/new, select Deploy from repo.
+4. Now select the forked repository, select branch.
+5. Now go to <b>Variables</b> and add variable listed below.
+   - BENTO_USERNAME - Your bento username
+6. Go to <b>Deployments</b> and wait for deplyment to complete.
+7. Now go to <b>Domains</b> and add your custom domain.
 
 ## Usage
 
