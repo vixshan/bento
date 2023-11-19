@@ -150,6 +150,17 @@ npm test
 7. To add your custom domain, see this
    [documentation](https://www.okteto.com/docs/cloud/custom-domains/).
 
+## DEPLOY TO REPL.IT
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+2. If You don't have an account On Repl.it.
+   [Create a account](https://repl.it/signup).
+3. [![Run on Repl.it](https://repl.it/badge/github/vixshan/bento)](https://replit.com/github/vixshan/bento)
+4. Now go to <b>Secrets</b> and add variable listed below.
+   - BENTO_USERNAME - Your bento username
+5. To add a custom domain, check this [documentation](https://docs.replit.com/hosting/custom-domains).
+
+
 ## Usage
 
 I haven't tried deploying the app to other platforms like AWS, CloudFlare
