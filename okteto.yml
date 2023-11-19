@@ -1,0 +1,10 @@
+name: bento
+image: node:14
+workdir: /
+command: ["npm", "start"]
+volumes:
+  - /app/node_modules
+sync:
+  - .:/app
+forward:
+  - 3000:3000

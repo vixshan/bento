@@ -91,7 +91,16 @@ npm test
    [here to deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento)
    the app to Heroku
 
-4. Add the custom domain to the Heroku app
+4. Now go to <b>Settings -> Domains</b> and add your custom domain.
+
+<details>
+  <summary>Adding a custom domain to your Heroku app</summary>
+  <img src="public/images/heroku-dom.jpeg">
+</details>
+<br>
+
+5. Now go to <b>Deploy -> Deployment method</b> and connect your app to the
+   forked repo to enable auto deploys.
 
 > Note: You can also deploy the app to Heroku using the Heroku CLI.
 
@@ -112,7 +121,30 @@ npm test
 5. Now go to <b>Variables</b> and add variable listed below.
    - BENTO_USERNAME - Your bento username
 6. Go to <b>Deployments</b> and wait for deplyment to complete.
-7. Now go to <b>Domains</b> and add your custom domain.
+7. Now go to <b>Settings -> Networking -> Custom Domain</b> and add your custom
+   domain.
+
+<details>
+  <summary>Adding a custom domain to your Railway app</summary>
+  <img src="public/images/raiway-dom.jpeg">
+</details>
+
+## DEPLOY TO OKTETO
+
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+
+2. If You don't have an account On Okteto.
+   [Create a account](https://www.okteto.com/pricing/?plan=SaaS).
+
+3. Now head towards Lunch Dev Environment.
+4. Now select the forked repository, select branch.
+5. Now go to <b>Variables</b> and add variable listed below.
+   - BENTO_USERNAME - Your bento username
+   <details>
+     <summary>Launching your Okteto app</summary>
+     <img src="public/images/okteto.jpeg">
+   </details>
 
 ## Usage
 
