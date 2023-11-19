@@ -150,7 +150,7 @@ npm test
 7. To add your custom domain, see this
    [documentation](https://www.okteto.com/docs/cloud/custom-domains/).
 
-## DEPLOY TO REPL.IT
+## DEPLOY TO REPL.IT (FREE)
 
 1. Give this repo a star and fork it to your GitHub account
    [here](https://github.com/vixshan/bento/fork).
@@ -161,6 +161,28 @@ npm test
    - BENTO_USERNAME - Your bento username
 5. To add a custom domain, check this
    [documentation](https://docs.replit.com/hosting/custom-domains).
+
+## DEPLOY TO KOYEB (RECOMMENDED, FREE)
+
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+2. If You don't have an account On Koyeb.
+   [Create a account](https://app.koyeb.com/signup).
+3. Now head towards
+   [Create an app](https://app.koyeb.com/apps/new/import-project), select Deploy
+   from GitHub.
+4. Now select the forked repository, select branch.
+   > overide all commands with
+5. Now go to <b>Variables</b> and add variable listed below.
+
+   - BENTO_USERNAME - Your bento username
+     > by default it launches with the .env file, so i case of conflicts, remove
+     > the `.env` file and add the variables in the Koyeb dashboard.
+
+   <br>
+
+> please note Custom domanis are not supported in KOYAB HOBBY plan, you have to
+> upgrade to a paid plan to add a custom domain.
 
 ## Usage
 
