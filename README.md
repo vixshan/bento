@@ -92,21 +92,15 @@ In this example I will assume you;
 
 ---
 
-1. Fork this repository to your GitHub account
-   [here](https://github.com/vixshan/bento/fork) and connect it to Heroku.
-2. Create a new Heroku app and a pipeline
-3. Add the GitHub repository to the pipeline
-4. Add the following config vars to the Heroku app
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+2. Click [here to deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento) the app to Heroku
 
-```bash
-BENTO_USERNAME=<your bento username>
-```
+3. Add the custom domain to the Heroku app
 
-5. Deploy the app to Heroku
-6. Add the custom domain to the Heroku app
+> Note: You can also deploy the app to Heroku using the Heroku CLI. 
 
-> Note: You can also deploy the app to Heroku using the Heroku CLI. Due to some
-> issues, i think caching, deploying the app on Heroku doesnt show the images,
+> Due to some issues, I think caching, deploying the app on Heroku doesnt show the images,
 > They load for a brief second and disappear. So, I recommend deploying the app
 > to a VPS or PC.
 

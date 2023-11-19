@@ -1,8 +1,0 @@
-name = "bento"
-main = "src/index.ts"
-compatibility_date = "2023-11-12"
-usage_model = "standard"
-env = { }
-
-[triggers]
-crons = [ ]
