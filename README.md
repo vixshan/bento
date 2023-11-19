@@ -20,7 +20,7 @@
   - Hostinger - Click [here for a discount](https://hostinger.sjv.io/vikshan)
   - BigRock VPS - Click [here for a discount](https://bigrock-in.sjv.io/vikshan)
   - HostGator - Click
-    [here for a discount](https://https://partners.hostgator.com/vikshan)
+    [here for a discount](https://partners.hostgator.com/vikshan)
 
 > If you don't know how to do this, I am an Ionos Partner and you can hire me at
 > [Vikshan](https://partnernetwork.ionos.com/partner/vixshan)
