@@ -1,10 +1,13 @@
 name: bento
-image: node:14
+image: node:20.8.1
 workdir: /
 command: ["npm", "start"]
 volumes:
-  - /app/node_modules
+  - /node_modules
 sync:
-  - .:/app
+  - .:/
 forward:
   - 3000:3000
+initContainer:
+  image: node20.8.1
+  command: ["npm", "install"]

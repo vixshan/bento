@@ -145,6 +145,7 @@ npm test
      <summary>Launching your Okteto app</summary>
      <img src="public/images/okteto.jpeg">
    </details>
+6. To add your custom domain, see this [documentation](https://www.okteto.com/docs/cloud/custom-domains/).
 
 ## Usage
 
