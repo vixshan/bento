@@ -172,7 +172,7 @@ npm test
    [Create an app](https://app.koyeb.com/apps/new/import-project), select Deploy
    from GitHub.
 4. Now select the forked repository, select branch.
-   > overide all commands with
+   
 5. Now go to <b>Variables</b> and add variable listed below.
 
    - BENTO_USERNAME - Your bento username
