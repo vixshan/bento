@@ -8,8 +8,8 @@
     "test": "node ./app.js",
     "start": "pm2 start app.js --name bento && pm2 save && pm2 logs",
     "dev": "nodemon ./app.js",
-    "update": "git pull && npm i && npm run format && npm run dev",
-    "format": "prettier --write ."
+    "u": "git pull && npm i && npm run format && npm run dev",
+    "f": "prettier --write ."
   },
   "keywords": [],
   "author": "",

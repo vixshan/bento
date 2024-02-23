@@ -81,6 +81,27 @@ npm test
   [here](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) for
   Nginx.
 
+## DEPLOY TO KOYEB (RECOMMENDED, FREE)
+
+1. Give this repo a star and fork it to your GitHub account
+   [here](https://github.com/vixshan/bento/fork).
+2. If You don't have an account On Koyeb.
+   [Create a account](https://app.koyeb.com/signup).
+3. Now head towards
+   [Create an app](https://app.koyeb.com/apps/new/import-project), select Deploy
+   from GitHub.
+4. Now select the forked repository, select branch.
+5. Now go to <b>Variables</b> and add variable listed below.
+
+   - BENTO_USERNAME - Your bento username
+     > by default it launches with the .env file, so i case of conflicts, remove
+     > the `.env` file and add the variables in the Koyeb dashboard.
+
+   <br>
+
+> please note Custom domanis are not supported in KOYAB HOBBY plan, you have to
+> upgrade to a paid plan to add a custom domain.
+
 ### Deployment to Heroku
 
 1. Give this repo a star and fork it to your GitHub account
@@ -104,9 +125,9 @@ npm test
 
 > Note: You can also deploy the app to Heroku using the Heroku CLI.
 
-> Due to some issues, I think caching, deploying the app on Heroku doesnt show
-> the images, They load for a brief second and disappear. So, I recommend
-> deploying the app to a VPS or PC.
+> KNOWN BUG: Due to some issues, I think caching, deploying the app on
+> Koyeb/Heroku doesnt show the images, They load for a brief second and
+> disappear. So, I recommend deploying the app to a VPS or PC.
 
 ## DEPLOY TO RAILWAY
 
@@ -162,37 +183,11 @@ npm test
 5. To add a custom domain, check this
    [documentation](https://docs.replit.com/hosting/custom-domains).
 
-## DEPLOY TO KOYEB (RECOMMENDED, FREE)
-
-1. Give this repo a star and fork it to your GitHub account
-   [here](https://github.com/vixshan/bento/fork).
-2. If You don't have an account On Koyeb.
-   [Create a account](https://app.koyeb.com/signup).
-3. Now head towards
-   [Create an app](https://app.koyeb.com/apps/new/import-project), select Deploy
-   from GitHub.
-4. Now select the forked repository, select branch.
-   
-5. Now go to <b>Variables</b> and add variable listed below.
-
-   - BENTO_USERNAME - Your bento username
-     > by default it launches with the .env file, so i case of conflicts, remove
-     > the `.env` file and add the variables in the Koyeb dashboard.
-
-   <br>
-
-> please note Custom domanis are not supported in KOYAB HOBBY plan, you have to
-> upgrade to a paid plan to add a custom domain.
-
 ## Usage
 
 I haven't tried deploying the app to other platforms like AWS, CloudFlare
 Workers, etc. If you have, please let me know how it went. My instance is
-deployed on Azure, and cached by CloudFlare.
-
-- Cached - [vikshan.me](https://vikshan.me)
-- Uncached -
-  [bento.eastus.cloudapp.azure.com](https://bento.eastus.cloudapp.azure.com/)
+deployed on Koyeb, you can [check it here](https://bento-vikshan.koyeb.app)
 
 ## Contributing
 
