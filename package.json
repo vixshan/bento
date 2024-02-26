@@ -1,16 +1,19 @@
 {
-  "name": "bento-custom-domain",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "type": "module",
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "test": "node ./app.js",
     "start": "pm2 start app.js --name bento && pm2 save && pm2 logs",
     "dev": "nodemon ./app.js",
     "u": "git pull && npm i && npm run f && npm run dev",
     "f": "prettier --write ."
   },
+  "name": "bento-custom-domain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,6 +25,10 @@
     "prettier": "^3.2.5"
   },
   "devDependencies": {
+    "@edgio/cli": "^7.8.1",
+    "@edgio/core": "^7.8.1",
+    "@edgio/express": "^7.5.0",
+    "@edgio/prefetch": "^7.8.1",
     "nodemon": "^3.1.0"
   }
 }
