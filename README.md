@@ -82,27 +82,31 @@ npm test
   Nginx.
 
 ## DEPLOY ON ZEABUR
+
 [![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=vixshan&utm_source=vixshan&utm_campaign=oss)
 
 1. Give this repo a star and fork it to your GitHub account
    [here](https://github.com/vixshan/bento/fork).
 2. If You don't have an account a Zeabur, click on this button;
- [![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=vixshan&utm_source=vixshan&utm_campaign=oss)
+   [![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=vixshan&utm_source=vixshan&utm_campaign=oss)
 3. Now head towards
-   [Create an app](https://zeabur.com?referralCode=vixshan&utm_source=vixshan&utm_campaign=oss), select Deploy
-   from GitHub.
+   [Create an app](https://zeabur.com?referralCode=vixshan&utm_source=vixshan&utm_campaign=oss),
+   select Deploy from GitHub.
 4. Now select the forked repository, select branch.
 5. Now go to <b>Variables</b> and add variable listed below.
 
    - BENTO_USERNAME - Your bento username
-     > by default it launches with the .env file, so in case of conflicts, remove
-     > the `.env` file and add the variables in the Zeabur dashboard.
+     > by default it launches with the .env file, so in case of conflicts,
+     > remove the `.env` file and add the variables in the Zeabur dashboard.
 
    <br>
+
 6. Change the run command to
+
 ```js
 node .
 ```
+
 7. Head to networking and generate/assign a domain to your app.
 
 ## DEPLOY TO KOYEB (RECOMMENDED, FREE)
@@ -118,8 +122,8 @@ node .
 5. Now go to <b>Variables</b> and add variable listed below.
 
    - BENTO_USERNAME - Your bento username
-     > by default it launches with the .env file, so in case of conflicts, remove
-     > the `.env` file and add the variables in the Koyeb dashboard.
+     > by default it launches with the .env file, so in case of conflicts,
+     > remove the `.env` file and add the variables in the Koyeb dashboard.
 
    <br>
 
