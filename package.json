@@ -19,7 +19,7 @@
     "fastify": "^4.26.2",
     "newrelic": "^11.16.0",
     "node-fetch": "^3.3.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
