@@ -36,10 +36,10 @@
 - PM2 (optional)
 - Apache2 (Required for VPS ) - I won't go deep on this, you can check a
   documentation I wrote for my Discord bot's dashboard
-  [here](https://docs.vikshan.me/installation/dashboard/custom-domain), it is
+  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain), it is
   basically the same thing.
 - Certbot (Required for SSL on VPS) see
-  [here](https://docs.vikshan.me/installation/dashboard/custom-domain/ssl-certificate)
+  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain/ssl-certificate)
 
 ## Installation
 
@@ -76,7 +76,7 @@ npm test
 ```
 
 - Set up a reverse proxy to the app using Apache2 or Nginx. See
-  [here](https://docs.vikshan.me/installation/dashboard/custom-domain) for
+  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain) for
   Apache2 and
   [here](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) for
   Nginx.
