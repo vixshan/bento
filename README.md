@@ -36,10 +36,10 @@
 - PM2 (optional)
 - Apache2 (Required for VPS ) - I won't go deep on this, you can check a
   documentation I wrote for my Discord bot's dashboard
-  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain), it is
+  [here](https://mina.vikshan.tech/selfhost/dashboard/domain), it is
   basically the same thing.
 - Certbot (Required for SSL on VPS) see
-  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain/ssl-certificate)
+  [here](https://mina.vikshan.tech/selfhost/dashboard/domain/ssl)
 
 ## Installation
 
@@ -76,7 +76,7 @@ npm test
 ```
 
 - Set up a reverse proxy to the app using Apache2 or Nginx. See
-  [here](https://docs.vikshan.tech/installation/dashboard/custom-domain) for
+  [here](https://mina.vikshan.tech/selfhost/dashboard/domain) for
   Apache2 and
   [here](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) for
   Nginx.
@@ -209,7 +209,7 @@ node .
 4. Now go to <b>Secrets</b> and add variable listed below.
    - BENTO_USERNAME - Your bento username
 5. To add a custom domain, check this
-   [documentation](https://docs.replit.com/hosting/custom-domains).
+   [documentation](https://docs.replit.com/cloud-services/deployments/custom-domains).
 
 ## Usage
 
