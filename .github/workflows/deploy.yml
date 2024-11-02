@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "vikshan-bento"
-          entrypoint: "app.js"
+          entrypoint: "./app.js"
           root: "./"
           
           
