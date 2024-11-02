@@ -36,6 +36,6 @@ jobs:
         with:
           project: "vikshan-bento"
           entrypoint: "app.js"
-          root: ""
+          root: "./"
           
           
