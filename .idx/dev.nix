@@ -20,6 +20,7 @@
     extensions = [
       "dbaeumer.vscode-eslint"
       "esbenp.prettier-vscode"
+      "eamodio.gitlens"
       "oven.bun-vscode"
     ];
 

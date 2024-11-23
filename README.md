@@ -133,7 +133,8 @@ bun test
 ### Deploy to Railway
 
 1. Create a [Railway account](https://railway.com?referralCode=HB99pt) if you don't have one.
-2. [Click here](https://railway.com/template/6fVSiZ?referralCode=HB99pt) to deploy using this repo as a template.
+2. [Click here](https://railway.com/template/6fVSiZ?referralCode=HB99pt) to deploy using this repo
+   as a template.
 3. Railway will automatically detect the project and set up the necessary environment.
 4. You'll be prompted to configure environment variables:
    - `BENTO_USERNAME`: Your Bento username

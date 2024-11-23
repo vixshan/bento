@@ -1,80 +1,30 @@
 {
   "compilerOptions": {
-    // Type Checking
+    "target": "esnext",
+    "module": "nodenext",
+    "lib": ["dom", "esnext", "es2022"],
+    "moduleResolution": "nodenext",
     "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "useUnknownInCatchVariables": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "exactOptionalPropertyTypes": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "allowUnusedLabels": false,
-    "allowUnreachableCode": false,
-
-    // Modules
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "moduleDetection": "force",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-
-    // Emit
-    "outDir": "dist",
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true,
-    "removeComments": false,
-    "noEmitOnError": true,
-    "preserveConstEnums": true,
-    "skipLibCheck": true,
-
-    // JavaScript Support
-    "allowJs": true,
-    "checkJs": true,
-
-    // Interop Constraints
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-
-    // Language and Environment
-    "target": "ESNext",
-    "lib": ["ESNext"],
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-
-    // Project Options
-    "incremental": true,
-    "tsBuildInfoFile": "./dist/.tsbuildinfo",
-    "composite": false,
-
-    // Output Formatting
-    "pretty": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declarationDir": "./dist",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./*"],
+      "@src/*": ["./src/*"]
+    },
+    //   "types": ["bun-types"],
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"],
-  "watchOptions": {
-    "watchFile": "useFsEvents",
-    "watchDirectory": "useFsEvents",
-    "fallbackPolling": "dynamicPriority",
-    "synchronousWatchDirectory": true,
-    "excludeDirectories": ["**/node_modules", "dist"]
-  },
-  "ts-node": {
-    "transpileOnly": true,
-    "files": true,
-    "experimentalResolver": true
-  }
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
