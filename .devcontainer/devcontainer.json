@@ -1,6 +1,6 @@
 {
   "name": "Ubuntu + Bun",
-  "image": "ghcr.io/vixshan/devcontainers/ubuntu-bun-node:latest",
+  "image": "ghcr.io/vixshan/devcontainers/ubuntu-bun:latest",
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {

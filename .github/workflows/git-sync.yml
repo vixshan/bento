@@ -174,7 +174,7 @@ jobs:
           }
 
           # Fetch all PRs from GitHub (both open and closed)
-          GITHUB_PRS=$(gh pr list --state all --json number,title,body,headRefName,baseRefName,headRepositoryOwner,state,merged)
+          GITHUB_PRS=$(gh pr list --state all --json number,title,body,headRefName,baseRefName,headRepositoryOwner,state,mergedAt)
 
           # Process each PR
           echo "$GITHUB_PRS" | jq -c '.[]' | while read -r pr; do
@@ -183,7 +183,7 @@ jobs:
             SOURCE_BRANCH=$(echo "$pr" | jq -r '.headRefName')
             TARGET_BRANCH=$(echo "$pr" | jq -r '.baseRefName')
             PR_STATE=$(echo "$pr" | jq -r '.state')
-            PR_MERGED=$(echo "$pr" | jq -r '.merged')
+            PR_MERGED_AT=$(echo "$pr" | jq -r '.mergedAt')
             
             echo "Processing PR: $PR_TITLE (${SOURCE_BRANCH} -> ${TARGET_BRANCH})"
             
@@ -193,7 +193,7 @@ jobs:
             if [ -n "$MR_IID" ]; then
               # MR exists, update its state
               if [ "$PR_STATE" = "CLOSED" ]; then
-                if [ "$PR_MERGED" = "true" ]; then
+                if [ -n "$PR_MERGED_AT" ]; then
                   echo "PR was merged, merging GitLab MR..."
                   glab mr merge "$MR_IID" --when-pipeline-succeeds || echo "Warning: Failed to merge MR"
                 else

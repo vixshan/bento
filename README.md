@@ -1,9 +1,33 @@
 # Custom Domain for Bento Profile
 
-> Transform your Bento profile with a personalized domain name
+<div align="center">
+    <a href="LICENSE">
+        <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License" height="22"/>
+    </a>
+    <a href="https://github.com/vixshan/bento/actions/workflows/git-sync.yml">
+        <img src="https://github.com/vixshan/bento/actions/workflows/git-sync.yml/badge.svg" alt="GitLab Sync" height="22"/>
+    </a>
+    <a href="https://github.com/vixshan/bento/actions/workflows/releases.yml">
+        <img src="https://github.com/vixshan/bento/actions/workflows/releases.yml/badge.svg" alt="Releases" height="22"/>
+    </a>
+</div>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=vikshan&utm_source=vikshan)
+<div align="center">
+    <a href="https://zeabur.com/templates/U3I9WF?referralCode=vixshan">
+        <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="27"/>
+    </a>
+    <a href="https://railway.com/template/6fVSiZ?referralCode=HB99pt">
+        <img src="https://railway.com/button.svg" alt="Deploy on Railway" height="27"/>
+    </a>
+    <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/vixshan/bento&name=bento&service_type=web&builder=dockerfile">
+        <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="27"/>
+    </a>
+    <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento">
+        <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" height="27"/>
+    </a>
+</div>
+
+> Transform your Bento profile with a personalized domain name
 
 ## ✨ Features
 
@@ -90,7 +114,9 @@ bun test
 ### Deploy to Koyeb (Recommended)
 
 1. [Create a Koyeb account](https://app.koyeb.com/signup)
-2. Deploy from GitHub repository
+2. Deploy from your GitHub repository or
+   [click here](https://app.koyeb.com/deploy?type=git&repository=github.com/vixshan/bento&name=bento&service_type=web&builder=dockerfile)
+   to automatically create using this repo as template.
 3. Set required environment variables
 
 > [!WARNING] Custom domains require a paid Koyeb plan
@@ -100,20 +126,42 @@ bun test
 1. [Create a Heroku account](https://signup.heroku.com/)
 2. Click
    [here to deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento)
+   using this repo as a template, or use your own fork.
 3. Configure custom domain in Settings → Domains
 4. Enable auto-deploys in Deploy → Deployment method
 
-> [!CAUTION] Known issue: Images may not persist due to caching. In case that happens, re-add those
-> images in bento or use VPS deployment for best results.
+### Deploy to Railway
+
+1. Create a [Railway account](https://railway.com?referralCode=HB99pt) if you don't have one.
+2. [Click here](https://railway.com/template/6fVSiZ?referralCode=HB99pt) to deploy using this repo as a template.
+3. Railway will automatically detect the project and set up the necessary environment.
+4. You'll be prompted to configure environment variables:
+   - `BENTO_USERNAME`: Your Bento username
+5. Click "Deploy" to start the deployment process.
+6. Once deployed, you'll get a URL to access your Bento profile with a custom domain.
+
+> [!NOTE] Railway provides a free tier with limited resources. For production use, consider
+> upgrading to a paid plan. You can also configure a custom domain with your Railway deployment.
+> Refer to the Railway
+> [documentation](https://docs.railway.com/guides/public-networking#custom-domains) for more details
+> on custom domains and other features.
 
 ### Additional Deployment Options
 
-- **Railway**: [Documentation](https://railway.app/)
 - **Okteto**: [Documentation](https://www.okteto.com/docs/)
 - **Repl.it**: [Documentation](https://docs.replit.com/)
 - **Docker**: [Documentation](https://docs.docker.com/)
 
+> [!CAUTION] Known issue: Images may not persist due to caching. In case that happens, re-add those
+> images in bento or use VPS deployment for best results.
+
 ## 🤝 Contributing
+
+<p align="center">
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg?style=for-the-badge)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento)
+[![Run on Repl.it](https://repl.it/badge/github/vixshan/bento?style=for-the-badge)](https://replit.com/@vixshan/bento)
+[![Deploy to Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fadd-to-glitch.svg?style=for-the-badge)](https://glitch.com/edit/#!/import/github/vixshan/bento)
+</p>
 
 Contributions are always welcome! If you find bugs or have suggestions:
 
@@ -146,3 +194,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img src="https://images-2.partnerportal.ionos.com/items/0461b6bb-dabe-40bb-8d94-feb41be45e49/profiles/b6282cd9-10f6-4260-90dd-0bc4584f9c33/badges/normal_blue_eco" alt="IONOS" height="50">
   </a>
 </p>
+
+![Alt](https://repobeats.axiom.co/api/embed/578ac42457107a9ba4a650e59d5d42849ab69c0b.svg 'Repobeats analytics image')
