@@ -1,0 +1,27 @@
+{
+  "name": "bento-custom-domain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start src/index.ts --name bento && pm2 save && pm2 logs",
+    "f": "prettier --write \"**/*.*\"",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "author": "vikshan",
+  "license": "ISC",
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@elysiajs/html": "latest",
+    "bun": "^1.1.36",
+    "elysia": "^1.1.25",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "pm2": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/pino": "^7.0.5",
+    "prettier": "^3.3.3"
+  }
+}
