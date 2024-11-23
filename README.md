@@ -27,7 +27,14 @@
     </a>
 </div>
 
-> Transform your Bento profile with a personalized domain name
+
+Transform your Bento profile with a personalized domain name! Bento does not have an official way to do this, so i thought this might be a workaround.
+
+ > [!TIP]
+> - To make changes, navigate to your official [bento profile](bento.me) and make them there.
+> - You do not need to re-deploy the app, it will pull those changes before you can even save the XD!
+
+> In other words, as long as your deployment is smooth, you will never think about it, just share your custom domain link, but use bento as normal! HOW COOL IS THAT!
 
 ## ✨ Features
 
@@ -41,7 +48,7 @@
 
 Before you begin, ensure you have:
 
-- A computer/VPS running Windows, Linux, macOS, or Ubuntu 20.04+
+- A computer/VPS running Windows, Linux, macOS, or Ubuntu 20.04+, or a docker image
 - [bun](https://bun.sh) v1.1.36 or later
 - A [Bento](https://bento.me) account
 - A custom domain name
@@ -49,7 +56,8 @@ Before you begin, ensure you have:
 - [Apache2](https://httpd.apache.org/) (Required for VPS)
 - [Certbot](https://certbot.eff.org/) (Required for SSL on VPS)
 
-> [!TIP] Get $300 free credit on Vultr to try your app! [Claim now](https://go.vikshan.tech/vultr)
+> [!TIP] 
+> Get $300 free credit on Vultr to try your app! [Claim now](https://go.vikshan.tech/vultr)
 
 ### 💻 Recommended VPS Providers
 
@@ -60,7 +68,8 @@ Before you begin, ensure you have:
 - [BigRock VPS](https://go.vikshan.tech/bigrock) - Special offers
 - [HostGator](https://go.vikshan.tech/hostgator) - Exclusive deals
 
-> [!NOTE] Need help with setup? I'm an Ionos Partner and can assist you! Contact me at
+> [!NOTE] 
+> Need help with setup? I'm an Ionos Partner and can assist you! Contact me at
 > [Vikshan](https://go.vikshan.tech/ionos-partner)
 
 ## 🚀 Installation
@@ -94,7 +103,8 @@ bun start
 bun test
 ```
 
-> [!IMPORTANT] When using a VPS, make sure to set up a reverse proxy using Apache2 or Nginx. See the
+> [!IMPORTANT] 
+> When using a VPS, make sure to set up a reverse proxy using Apache2 or Nginx. See the
 > [Apache2 guide](https://docs.vikshan.tech/selfhost/dashboard/domain) or
 > [Nginx guide](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/).
 
@@ -109,7 +119,8 @@ bun test
 3. Configure environment variables:
    - `BENTO_USERNAME`: Your Bento username
 
-> [!NOTE] Remove the `.env` file if you're setting variables in Zeabur dashboard to avoid conflicts
+> [!NOTE] 
+> Remove the `.env` file if you're setting variables in Zeabur dashboard to avoid conflicts
 
 ### Deploy to Koyeb (Recommended)
 
@@ -119,7 +130,8 @@ bun test
    to automatically create using this repo as template.
 3. Set required environment variables
 
-> [!WARNING] Custom domains require a paid Koyeb plan
+> [!WARNING] 
+> Custom domains require a paid Koyeb plan
 
 ### Deploy to Heroku
 
@@ -141,7 +153,8 @@ bun test
 5. Click "Deploy" to start the deployment process.
 6. Once deployed, you'll get a URL to access your Bento profile with a custom domain.
 
-> [!NOTE] Railway provides a free tier with limited resources. For production use, consider
+> [!NOTE] 
+> Railway provides a free tier with limited resources. For production use, consider
 > upgrading to a paid plan. You can also configure a custom domain with your Railway deployment.
 > Refer to the Railway
 > [documentation](https://docs.railway.com/guides/public-networking#custom-domains) for more details
@@ -153,16 +166,12 @@ bun test
 - **Repl.it**: [Documentation](https://docs.replit.com/)
 - **Docker**: [Documentation](https://docs.docker.com/)
 
-> [!CAUTION] Known issue: Images may not persist due to caching. In case that happens, re-add those
-> images in bento or use VPS deployment for best results.
+> [!CAUTION] 
+> Known issues: 
+> 1. Images may not persist due to caching. In case that happens, re-add those images in bento or use VPS deployment for best results.
+> 2. Maps do not work
 
 ## 🤝 Contributing
-
-<p align="center">
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg?style=for-the-badge)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento)
-[![Run on Repl.it](https://repl.it/badge/github/vixshan/bento?style=for-the-badge)](https://replit.com/@vixshan/bento)
-[![Deploy to Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fadd-to-glitch.svg?style=for-the-badge)](https://glitch.com/edit/#!/import/github/vixshan/bento)
-</p>
 
 Contributions are always welcome! If you find bugs or have suggestions:
 
@@ -172,7 +181,8 @@ Contributions are always welcome! If you find bugs or have suggestions:
 4. Push to the branch
 5. Open a [Pull Request](https://github.com/vixshan/bento/compare)
 
-> [!TIP] If this project helped you, please consider:
+> [!TIP] 
+> If this project helped you, please consider:
 >
 > - Giving it a star ⭐
 > - [Becoming a sponsor](https://github.com/sponsors/vixshan)
@@ -182,6 +192,10 @@ Contributions are always welcome! If you find bugs or have suggestions:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Activity Graph
+![Alt](https://repobeats.axiom.co/api/embed/578ac42457107a9ba4a650e59d5d42849ab69c0b.svg 'Repobeats analytics image')
+
+
 ## 💪 Powered By
 
 <p align="left">
@@ -189,11 +203,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean" height="50">
   </a>
   <a href="https://go.vikshan.tech/vultr">
-    <img src="https://www.vultr.com/media/logo_ondark.svg" alt="Vultr" height="50">
+    <img src="https://www.vultr.com/media/logo_ondark.svg" alt="Vultr" height="50" width="100">
   </a>
   <a href="https://partnernetwork.ionos.com/partner/vikshan?origin=PartnerBadge">
-    <img src="https://images-2.partnerportal.ionos.com/items/0461b6bb-dabe-40bb-8d94-feb41be45e49/profiles/b6282cd9-10f6-4260-90dd-0bc4584f9c33/badges/normal_blue_eco" alt="IONOS" height="50">
+    <img src="https://images-2.partnerportal.ionos.com/items/0461b6bb-dabe-40bb-8d94-feb41be45e49/profiles/b6282cd9-10f6-4260-90dd-0bc4584f9c33/badges/normal_blue_eco" alt="IONOS" height="52" width="108">
   </a>
 </p>
-
-![Alt](https://repobeats.axiom.co/api/embed/578ac42457107a9ba4a650e59d5d42849ab69c0b.svg 'Repobeats analytics image')
