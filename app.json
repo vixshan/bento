@@ -1,7 +1,7 @@
 {
   "name": "bento",
   "description": "Use a custom domain for your Bento profile",
-  "repository": "https://github.com/vixshan/bento",
+  "repository": "https://github.com/iamvikshan/bento",
   "logo": "https://lh3.googleusercontent.com/a/ACg8ocJ9C_jc3txFitj02HgiJ6fHyVGpBzXhjGlDvfYomhP8fOc=s512-c",
   "keywords": ["node", "express", "bento", "nodejs"],
   "env": {
@@ -17,5 +17,5 @@
       "size": "basic"
     }
   },
-  "buildpacks": [{ "url": "https://github.com/vixshan/heroku-buildpack-bun" }]
+  "buildpacks": [{ "url": "https://github.com/iamvikshan/heroku-buildpack-bun" }]
 }

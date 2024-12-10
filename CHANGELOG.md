@@ -5,9 +5,9 @@
 ### Features
 
 - update documentation
-  ([4d3d7e3](https://github.com/vixshan/bento/commit/4d3d7e302a02942c542a827317ca1f91b9244f61))
+  ([4d3d7e3](https://github.com/iamvikshan/bento/commit/4d3d7e302a02942c542a827317ca1f91b9244f61))
 
 ### Bug Fixes
 
 - fix release workflow
-  ([a12b133](https://github.com/vixshan/bento/commit/a12b133caead06c0d15b2581f0ec5155b65b099a))
+  ([a12b133](https://github.com/iamvikshan/bento/commit/a12b133caead06c0d15b2581f0ec5155b65b099a))

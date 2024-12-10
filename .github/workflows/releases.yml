@@ -88,8 +88,8 @@ jobs:
       - name: Sync repositories
         run: |
           bun run f
-          git config --global user.email "vixshan@gmail.com"
-          git config --global user.name "vixshan"
+          git config --global user.email "iamvikshan@gmail.com"
+          git config --global user.name "iamvikshan"
           git commit --amend --no-edit
           git push -f origin HEAD:${{ github.ref_name }}
 

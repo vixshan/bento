@@ -2,8 +2,6 @@ name: GitLab Sync
 on:
   push:
     branches: ["*"]
-  delete:
-    branches: ["*"]
   pull_request:
     types: [opened, closed, reopened, edited, labeled, unlabeled]
   schedule:
@@ -109,7 +107,7 @@ jobs:
 
           # Sync branches to GitLab
           git config --global user.name "vikshan"
-          git config --global user.email "vixshan@gmail.com"
+          git config --global user.email "iamvikshan@gmail.com"
           echo "$GITHUB_BRANCHES" | while read branch; do
             if [ -n "$branch" ]; then
               echo "Syncing branch: $branch"

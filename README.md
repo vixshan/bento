@@ -4,22 +4,25 @@
     <a href="LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License" height="22"/>
     </a>
-    <a href="https://github.com/vixshan/bento/actions/workflows/git-sync.yml">
-        <img src="https://github.com/vixshan/bento/actions/workflows/git-sync.yml/badge.svg" alt="GitLab Sync" height="22"/>
+    <a href="https://github.com/iamvikshan/bento/actions/workflows/git-sync.yml">
+        <img src="https://github.com/iamvikshan/bento/actions/workflows/git-sync.yml/badge.svg" alt="GitLab Sync" height="22"/>
     </a>
-    <a href="https://github.com/vixshan/bento/actions/workflows/releases.yml">
-        <img src="https://github.com/vixshan/bento/actions/workflows/releases.yml/badge.svg" alt="Releases" height="22"/>
+    <a href="https://github.com/iamvikshan/bento/actions/workflows/releases.yml">
+        <img src="https://github.com/iamvikshan/bento/actions/workflows/releases.yml/badge.svg" alt="Releases" height="22"/>
+    </a>
+    <a href="https://github.com/iamvikshan/bento/actions/workflows/cla.yml">
+        <img src="https://github.com/iamvikshan/bento/actions/workflows/cla.yml/badge.svg" alt="Releases" height="22"/>
     </a>
 </div>
 
 <div align="center">
-    <a href="https://zeabur.com/templates/U3I9WF?referralCode=vixshan">
+    <a href="https://zeabur.com/templates/U3I9WF?referralCode=iamvikshan">
         <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="27"/>
     </a>
     <a href="https://railway.com/template/6fVSiZ?referralCode=HB99pt">
         <img src="https://railway.com/button.svg" alt="Deploy on Railway" height="27"/>
     </a>
-    <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/vixshan/bento&name=bento&service_type=web&builder=dockerfile">
+    <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/iamvikshan/bento&name=bento&service_type=web&builder=dockerfile">
         <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="27"/>
     </a>
     <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fvixshan%2Fbento">
@@ -79,7 +82,7 @@ Before you begin, ensure you have:
 1. Clone and install dependencies:
 
 ```bash
-git clone https://github.com/vixshan/bento.git
+git clone https://github.com/iamvikshan/bento.git
 cd bento
 bun i
 ```
@@ -110,7 +113,7 @@ bun test
 
 ## ☁️ Cloud Deployment Options
 
-1. ⭐ Star and [fork](https://github.com/vixshan/bento/fork) this repository
+1. ⭐ Star and [fork](https://github.com/iamvikshan/bento/fork) this repository
 
 ### Deploy to Zeabur
 
@@ -126,7 +129,7 @@ bun test
 
 1. [Create a Koyeb account](https://app.koyeb.com/signup)
 2. Deploy from your GitHub repository or
-   [click here](https://app.koyeb.com/deploy?type=git&repository=github.com/vixshan/bento&name=bento&service_type=web&builder=dockerfile)
+   [click here](https://app.koyeb.com/deploy?type=git&repository=github.com/iamvikshan/bento&name=bento&service_type=web&builder=dockerfile)
    to automatically create using this repo as template.
 3. Set required environment variables
 
@@ -175,18 +178,18 @@ bun test
 
 Contributions are always welcome! If you find bugs or have suggestions:
 
-1. [Fork](https://github.com/vixshan/bento/fork) the repository
+1. [Fork](https://github.com/iamvikshan/bento/fork) the repository
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
-5. Open a [Pull Request](https://github.com/vixshan/bento/compare)
+5. Open a [Pull Request](https://github.com/iamvikshan/bento/compare)
 
 > [!TIP] 
 > If this project helped you, please consider:
 >
 > - Giving it a star ⭐
-> - [Becoming a sponsor](https://github.com/sponsors/vixshan)
-> - Checking out my [other projects](https://github.com/vixshan?tab=repositories)
+> - [Becoming a sponsor](https://github.com/sponsors/iamvikshan)
+> - Checking out my [other projects](https://github.com/iamvikshan?tab=repositories)
 
 ## 📄 License
 
